@@ -1,0 +1,49 @@
+:root{
+    color: white;
+    background-color: #353535;
+}
+#container{
+    width: 90%;
+    margin: 40px auto 100px auto;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;;
+}
+.ejer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #284b63;
+    color: white;
+    border-radius: 10%;
+    margin: 20px;
+    padding: 20px;
+
+    height: 25vw;
+    text-align: center
+
+
+
+}
+button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+button:hover {
+    background-color:#353535;
+}
+
+#muestra{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}
